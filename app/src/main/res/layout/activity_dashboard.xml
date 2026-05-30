@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_header_gradient">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin Dashboard"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview of campus events"
+                android:textSize="16sp"
+                android:textColor="#F2E9FF"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/totalEventsText"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="📊 Total Events: 0"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#6A4C93" />
+
+            <TextView
+                android:id="@+id/workshopText"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="🛠 Workshops: 0"
+                android:textSize="20sp"
+                android:textColor="#1B4332"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:background="#D8F3DC"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/seminarText"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="🎤 Seminars: 0"
+                android:textSize="20sp"
+                android:textColor="#1B4332"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:background="#E0F7FA"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/festText"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="🎉 Fests: 0"
+                android:textSize="20sp"
+                android:textColor="#1B4332"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:background="#FFE5EC"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/examText"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="📝 Exams: 0"
+                android:textSize="20sp"
+                android:textColor="#1B4332"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:background="#FFF3B0"
+                android:layout_marginTop="14dp" />
+
+            <TextView
+                android:id="@+id/noticeText"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:text="📢 Notices: 0"
+                android:textSize="20sp"
+                android:textColor="#1B4332"
+                android:gravity="center_vertical"
+                android:paddingStart="18dp"
+                android:background="#EEE6FF"
+                android:layout_marginTop="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

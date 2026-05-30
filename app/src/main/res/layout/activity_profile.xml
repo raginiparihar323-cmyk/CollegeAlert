@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_screen">
+
+    <!-- HEADER -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@drawable/bg_header_gradient">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College Alert Account"
+            android:textColor="#F2E9FF"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+    <!-- PROFILE CARD -->
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:gravity="center"
+                android:text="👤"
+                android:textSize="42sp"
+                android:background="#EEE6FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logged In User"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#1B4332"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/profileEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user@gmail.com"
+                android:textSize="17sp"
+                android:textColor="#666666"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/logoutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Logout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#D62828"
+                android:layout_marginTop="28dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

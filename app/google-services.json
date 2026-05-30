@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1071455827927",
+    "project_id": "collegealert-d7bed",
+    "storage_bucket": "collegealert-d7bed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071455827927:android:72196fc8d7db0dd1ab3d92",
+        "android_client_info": {
+          "package_name": "com.rise.collegealert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA-IuzOci3UWbWQYSB3nXWtwy0qjQpmbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
